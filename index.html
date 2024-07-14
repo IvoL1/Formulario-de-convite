@@ -7,22 +7,134 @@
 		<title>Formulário de convite</title>
 	</head>
 	<body>
-		<div class="container">
-			<aside>
-				<div class="title-banner">
-					<img src="assets/Logo.svg" alt="" />
-					<div class="text-banner">
-						<h1>Festivite</h1>
-						<p>Crie um convite digital para o seu evento</p>
-					</div>
-				</div>
-			</aside>
-			<main>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-				Exercitationem corporis accusantium hic totam excepturi magnam
-				ipsam iusto assumenda inventore nam unde eius eos consequatur
-				doloremque ipsum, qui commodi pariatur cupiditate.
-			</main>
-		</div>
+		<aside></aside>
+		<main>
+			<div class="main-wrapper">
+				<h2>Crie seu convite</h2>
+				<section class="forms-container">
+					<fieldset class="event">
+						<legend>
+							<img
+								src="assets/icons/calendar.png"
+								alt="calendar icon" />
+							<span>Sobre o evento</span>
+						</legend>
+						<div class="event-form">
+							<div class="title">
+								<label for="event-title">Título </label>
+								<input
+									required
+									type="text"
+									id="event-title"
+									placeholder="Nome do evento" />
+								<div class="error">
+									<img
+										src="assets/icons/error.svg"
+										alt="error icon" />
+									<p>Campo obrigatório</p>
+								</div>
+							</div>
+							<div class="start">
+								<label for="event-start">Início </label>
+								<input
+									required
+									type="text"
+									id="event-start"
+									placeholder="DD/MM/AAAA, --:--" />
+								<div class="error">
+									<img
+										src="assets/icons/error.svg"
+										alt="error icon" />
+									<p>Campo obrigatório</p>
+								</div>
+							</div>
+
+							<div class="end">
+								<label for="event-end">Fim </label>
+								<input
+									required
+									type="text"
+									id="event-end"
+									placeholder="DD/MM/AAAA, --:--" />
+								<div class="error">
+									<img
+										src="assets/icons/error.svg"
+										alt="error icon" />
+									<p>Campo obrigatório</p>
+								</div>
+							</div>
+
+							<div class="type">
+								<label for="event-type">Tipo</label>
+								<div class="event-container">
+									<div class="radio">
+										<input
+											type="radio"
+											id="event-type-presencial"
+											name="event-type"
+											checked />
+										<label for="event-type-presencial">
+											<img
+												src="assets/icons/building-2.png"
+												alt="build icon" />
+											Presencial
+										</label>
+									</div>
+
+									<div class="radio">
+										<input
+											type="radio"
+											id="event-type-online"
+											name="event-type" />
+										<label for="event-type-online">
+											<img
+												src="assets/icons/video.png"
+												alt="cam video icon" />
+											Online
+										</label>
+									</div>
+								</div>
+								<div class="error">
+									<img
+										src="assets/icons/error.svg"
+										alt="error icon" />
+									<p>Campo obrigatório</p>
+								</div>
+							</div>
+
+							<div class="location">
+								<label for="event-location">Local </label>
+								<input
+									required
+									type="text"
+									id="event-location"
+									placeholder="Link ou endereço" />
+								<div class="error">
+									<img
+										src="assets/icons/error.svg"
+										alt="error icon" />
+									<p>Campo obrigatório</p>
+								</div>
+							</div>
+
+							<div class="description">
+								<label for="event-description"
+									>Descrição
+								</label>
+								<textarea
+									name="event-description"
+									id="event-description"
+									placeholder="Escreva sobre os detalhes do evento"
+									cols="30"></textarea
+								>>
+							</div>
+						</div>
+					</fieldset>
+					<!-- <fieldset class="customize"></fieldset>
+					<fieldset class="contact"></fieldset>
+					<footer></footer> -->
+				</section>
+			</div>
+		</main>
 	</body>
 </html>
