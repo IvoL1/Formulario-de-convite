@@ -11,8 +11,12 @@ body {
 	min-height: 100svh;
 	font-size: 100%;
 	line-height: 1.6;
-	overflow-x: hidden;
 	text-rendering: optimizeLegibility;
+}
+
+img {
+	max-height: 100%;
+	display: block;
 }
 
 /* Fonts */

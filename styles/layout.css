@@ -1,0 +1,24 @@
+.container {
+	min-height: 100svh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 1.25rem;
+	background-color: var(--shape-background);
+	gap: 1.25rem;
+}
+
+main {
+	background-color: var(--shape-body);
+	border-radius: 0.75rem;
+	padding: 5rem;
+}
+
+aside {
+	display: flex;
+	justify-self: end;
+	width: 25rem;
+	height: 45.5rem;
+	border-radius: 0.75rem;
+	background: url(../assets/Background.png) no-repeat center/cover;
+	padding: 2rem;
+}
