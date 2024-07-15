@@ -187,6 +187,7 @@
 	border: 0.125rem solid var(--input-stroke);
 	background: var(--shape-background);
 	position: relative;
+	transition: background-color 0.3s;
 }
 
 .dark-bg + p {
@@ -208,9 +209,27 @@
 	cursor: pointer;
 	transition: left 0.3s;
 }
+
+.pcontainer {
+	position: relative;
+}
+.pdark {
+	display: none;
+}
+.pwhite {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
 /* Estilo para quando o checkbox está marcado */
 .dark-bg input:checked + label {
 	left: 55%;
+	background-color: white;
+}
+
+.dark-bg:has(input:checked) {
+	background-color: #59b2ff;
 }
 
 .upload-file {
@@ -248,7 +267,6 @@
 		gap: 0.5rem;
 		border-radius: 0.5rem;
 		background: var(--shape-button);
-
 		color: var(--text-heading);
 		font-family: "Open Sans", sans-serif;
 		font-size: 0.875rem;

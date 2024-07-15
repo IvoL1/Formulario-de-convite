@@ -30,6 +30,16 @@
 	grid-template-columns: 1fr 1fr;
 	gap: 1rem;
 
+	& div input {
+		outline-color: transparent;
+		transition: outline-color 0.4s;
+	}
+
+	& div textarea {
+		outline-color: transparent;
+		transition: outline-color 0.4s;
+	}
+
 	& input[type="text"]:hover,
 	textarea:hover {
 		outline: 1px solid var(--brand-light);
