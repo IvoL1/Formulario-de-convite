@@ -59,7 +59,7 @@ main {
 	& h2 {
 		color: var(--text-heading);
 		font-family: "Baloo 2", sans-serif;
-		font-size: 28px;
+		font-size: 1.75rem;
 		font-weight: 700;
 	}
 }
