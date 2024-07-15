@@ -20,6 +20,7 @@ img {
 }
 
 .error {
+	height: 1.2rem;
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
@@ -46,10 +47,9 @@ fieldset {
 textarea {
 	resize: none;
 }
-
-input[type="radio"] {
-	appearance: none; /* Remove a aparência padrão */
-	-webkit-appearance: none; /* Remove a aparência no Safari */
+input {
+	appearance: none;
+	-webkit-appearance: none;
 }
 
 /* Fonts */

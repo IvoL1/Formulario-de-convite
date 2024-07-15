@@ -12,6 +12,29 @@ aside {
 	width: 25rem;
 	height: 45.5rem;
 	background: url(../assets/Background.png) center / cover no-repeat;
+	padding: 2rem;
+
+	& img {
+		width: 2.86569rem;
+		height: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	& h1 {
+		color: var(--pink);
+		font-family: "Leckerli One", sans-serif;
+		font-size: 2.5rem;
+		font-weight: 400;
+		text-transform: capitalize;
+		margin-bottom: 0.25rem;
+	}
+
+	& p {
+		color: var(--text-heading);
+		font-family: "Open Sans", sans-serif;
+		font-size: 1rem;
+		font-weight: 300;
+	}
 }
 
 main {
@@ -39,4 +62,10 @@ main {
 		font-size: 28px;
 		font-weight: 700;
 	}
+}
+
+.forms-container {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
 }

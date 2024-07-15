@@ -7,7 +7,11 @@
 		<title>Formulário de convite</title>
 	</head>
 	<body>
-		<aside></aside>
+		<aside>
+			<img src="assets/Logo.svg" alt="logo" />
+			<h1>Festivite</h1>
+			<p>Crie um convite digital para o seu evento</p>
+		</aside>
 		<main>
 			<div class="main-wrapper">
 				<h2>Crie seu convite</h2>
@@ -118,21 +122,284 @@
 							</div>
 
 							<div class="description">
-								<label for="event-description"
-									>Descrição
-								</label>
+								<label for="event-description">
+									Descrição</label
+								>
 								<textarea
 									name="event-description"
 									id="event-description"
 									placeholder="Escreva sobre os detalhes do evento"
-									cols="30"></textarea
-								>>
+									cols="30"></textarea>
 							</div>
 						</div>
 					</fieldset>
-					<!-- <fieldset class="customize"></fieldset>
-					<fieldset class="contact"></fieldset>
-					<footer></footer> -->
+
+					<fieldset class="customize">
+						<legend>
+							<img
+								src="assets/icons/paintbrush-vertical.png"
+								alt="paintbrush icon" />
+							<span>Personalização</span>
+						</legend>
+						<div class="customize-container">
+							<div class="mainColor">
+								<p>Cor principal</p>
+								<div class="colorOptions">
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice1" />
+									<label for="colorChoice1"></label>
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice2" />
+									<label for="colorChoice2"></label>
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice3" />
+									<label for="colorChoice3"></label>
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice4" />
+									<label for="colorChoice4"></label>
+									<input
+										checked
+										type="radio"
+										name="colorChoice"
+										id="colorChoice5" />
+									<label for="colorChoice5"></label>
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice6" />
+									<label for="colorChoice6"></label>
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice7" />
+									<label for="colorChoice7"></label>
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice8" />
+									<label for="colorChoice8"></label>
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice9" />
+									<label for="colorChoice9"></label>
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice10" />
+									<label for="colorChoice10"></label>
+									<input
+										type="radio"
+										name="colorChoice"
+										id="colorChoice11" />
+									<label for="colorChoice11"></label>
+								</div>
+							</div>
+							<div class="eventTheme">
+								<p>Tema do evento</p>
+								<div class="themeOptions">
+									<div>
+										<input
+											checked
+											type="radio"
+											name="eventType"
+											id="birthday" />
+										<label for="birthday">
+											<img
+												src="assets/1.jpg"
+												alt="photo birthday" />
+											<span>Aniversário</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="childrensParty" />
+										<label for="childrensParty">
+											<img
+												src="assets/2.jpg"
+												alt="photo childrensParty" />
+											<span>Infantil</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="graduation" />
+										<label for="graduation">
+											<img
+												src="assets/3.jpg"
+												alt="photo graduation" />
+											<span>Formatura</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="wedding" />
+										<label for="wedding">
+											<img
+												src="assets/4.jpg"
+												alt="photo wedding" />
+											<span>Casamento</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="babyShower" />
+										<label for="babyShower">
+											<img
+												src="assets/5.jpg"
+												alt="photo baby shower" />
+											<span>Chá de bebê</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="bridalShower" />
+										<label for="bridalShower">
+											<img
+												src="assets/6.jpg"
+												alt="photo bridal shower" />
+											<span>Chá de panela</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="carnival" />
+										<label for="carnival">
+											<img
+												src="assets/7.jpg"
+												alt="photo carnival" />
+											<span>Carnaval</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="easter" />
+										<label for="easter">
+											<img
+												src="assets/8.jpg"
+												alt="photo easter" />
+											<span>Páscoa</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="saintJohn" />
+										<label for="saintJohn">
+											<img
+												src="assets/9.jpg"
+												alt="photo saintJohn" />
+											<span>São João</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="halloween" />
+										<label for="halloween">
+											<img
+												src="assets/10.jpg"
+												alt="photo halloween" />
+											<span>Halloween</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="christmas" />
+										<label for="christmas">
+											<img
+												src="assets/11.jpg"
+												alt="photo christmas" />
+											<span>Natal</span>
+										</label>
+									</div>
+
+									<div>
+										<input
+											type="radio"
+											name="eventType"
+											id="other" />
+										<label for="other">
+											<img
+												src="assets/12.jpg"
+												alt="photo other" />
+											<span>Outro</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="actions-buttons">
+								<div class="dark-toogle">
+									<p>Estilo</p>
+									<div class="dark-container">
+										<div class="dark-bg">
+											<input
+												type="checkbox"
+												name="darkMode"
+												id="darkMode" />
+											<label for="darkMode"></label>
+										</div>
+										<p>Escuro</p>
+									</div>
+								</div>
+								<div class="upload-file">
+									<p>Foto de capa</p>
+									<div>
+										<label for="upload">
+											<img
+												src="assets/icons/upload.png"
+												alt="" />
+											Selecionar
+											<input
+												type="file"
+												name="upload"
+												id="upload" />
+										</label>
+										<p>Nenhum arquivo selecionado</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+
+					<!-- <fieldset class="contact"></fieldset>
+					<footer></footer>  -->
 				</section>
 			</div>
 		</main>
