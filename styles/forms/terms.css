@@ -1,0 +1,24 @@
+.terms {
+	margin-top: 2rem;
+	color: #c8cdd0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.875rem;
+	font-weight: 400;
+	padding-block: 2.5rem 3rem;
+	border-top: 1px solid #363b40;
+}
+
+a {
+	color: #59b2ff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.875rem;
+	font-weight: 600;
+	text-decoration-line: underline;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.5rem;
+}
